@@ -1,0 +1,24 @@
+header{
+    width: 100vw;
+    height: 60px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button{
+    background-color: orange;
+    border: 0;
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(206, 148, 40); 
+}
+
+.title{
+    color:white;
+    margin-left: 5vw;
+}

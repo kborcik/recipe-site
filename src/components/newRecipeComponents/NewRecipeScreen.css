@@ -1,0 +1,140 @@
+.new-recipe-container {
+	height: calc(200vh - 200px);
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    overflow-y: scroll;
+    box-sizing:border-box;
+}
+
+	.new-recipe-container h1 {
+		font-family: sans-serif;
+		font-size: 36px;
+	}
+
+.new-recipe-container form {
+	height: 70%;
+	width: 600px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	font-size: 24px;
+	font-family: sans-serif;
+}
+
+.new-recipe-container input {
+	margin: 0 10px;
+	height: 40px;
+	border: 1px solid #383838;
+	border-radius: 4px;
+	padding-left: 10px;
+}
+.new-recipe-container input::placeholder {
+	font-size: 18px;
+}
+
+.name-image {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+	.name-image input {
+		width: 250px;
+	}
+
+.radio {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+	.radio label {
+		display: flex;
+		align-items: center;
+	}
+	.radio input {
+		width: 40px;
+		height: 40px;
+	}
+
+.form-info {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+	.form-info input {
+		width: 200px;
+	}
+
+.form-ingredients {
+	width: 100%;
+	height: 170px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	gap: 20px;
+}
+	.form-ingredients input {
+		width: 250px;
+	}
+
+.ing-container {
+	width: 100%;
+	height: 90%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+	.left {
+		width: 49%;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: flex-start;
+	}
+
+	.right {
+		width: 49%;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+textarea {
+	font-family: sans-serif;
+	font-size: 18px;
+}
+
+.add-btn {
+	height: 40px;
+	width: 140px;
+	border: none;
+	background-color: #ff9a56;
+	color: #fff;
+	font-weight: 400;
+	font-size: 18px;
+	border-radius: 4px;
+}
+
+.save-btn {
+	height: 40px;
+	width: 140px;
+	border: none;
+	background-color: #59949d;
+	color: #fff;
+	font-weight: 600;
+	font-size: 18px;
+	border-radius: 4px;
+}
