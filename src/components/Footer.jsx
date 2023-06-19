@@ -9,22 +9,22 @@ const Footer = () => {
         <h5>Hit us up on our socials!</h5>
         <div className="social-links">
           <div className="social-circle">
-            <a href="https://www.devmountain.com" target="_blank">
+            <a href="https://www.devmountain.com">
               <ImFacebook size="1.5em" color="#3f3f3f" />
             </a>
           </div>
           <div className="social-circle">
-            <a href="https://www.devmountain.com" target="_blank">
+            <a href="https://www.devmountain.com">
               <ImInstagram size="1.5em" color="#3f3f3f" />
             </a>
           </div>
           <div className="social-circle">
-            <a href="https://www.devmountain.com" target="_blank">
+            <a href="https://www.devmountain.com">
               <ImTwitter size="1.5em" color="#3f3f3f" />
             </a>
           </div>
           <div className="social-circle">
-            <a href="https://www.devmountain.com" target="_blank">
+            <a href="https://www.devmountain.com">
               <ImGithub size="1.5em" color="#3f3f3f" />
             </a>
           </div>
